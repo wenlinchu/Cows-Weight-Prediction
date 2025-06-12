@@ -1,6 +1,6 @@
 # Application of Weight Prediction for Holstein Dairy Cattle in Non-Pregnant and Postpartum Stages
 
-This repository (cattle-WP) contains MATLAB code for evaluating machine learning models used in Holstein dairy cattle weight prediction research, representing part of the source code from our paper "Application of Weight Prediction for Holstein Dairy Cattle in Non-Pregnant and Postpartum Stages." The project compares the performance of Feedforward Neural Network (FNN) and Gaussian Process Regression (GPR) models against traditional farm weight estimation methods, primarily designed for testing out-of-sample data.
+This repository (Cows-Weight-Prediction) contains MATLAB code for evaluating machine learning models used in Holstein dairy cattle weight prediction research, representing part of the source code from our paper "Application of Weight Prediction for Holstein Dairy Cattle in Non-Pregnant and Postpartum Stages." The project compares the performance of Feedforward Neural Network (FNN) and Gaussian Process Regression (GPR) models against traditional farm weight estimation methods, primarily designed for testing out-of-sample data.
 
 | Non-Pregnant cattle | Postpartum cattle |
 |---------------------|-------------------|
@@ -16,7 +16,7 @@ This repository (cattle-WP) contains MATLAB code for evaluating machine learning
 ## File Structure
 
 ```
-cattle-WP/                        # This repository
+Cows-Weight-Prediction/           # This repository
 ├── useModel.m                    # Main evaluation script
 ├── README.md                     # This documentation file
 ├── model/
@@ -38,7 +38,7 @@ cattle-WP/                        # This repository
 ### 1. Setup
 ```matlab
 % Clone repository and navigate to project directory
-cd cattle-WP
+cd Cows-Weight-Prediction
 
 % Ensure all required files are present
 if exist('useModel.m', 'file') && exist('TestData.mat', 'file') && exist('inpaint_nans.m', 'file') && exist('interpolateStructFields.m', 'file') && exist('safeFirstElement.m', 'file')
@@ -158,6 +158,6 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 ## Contact
 
 For questions, issues, or collaborations:
-- **Primary Contact**: [wlchu@nchu.edu.tw]
-- **Institution**: [National Chung-Hsing University, Taichung, 402202, Taiwan]
+- **Primary Contact**: wlchu@nchu.edu.tw
+- **Institution**: National Chung-Hsing University, Taichung, 402202, Taiwan
 
