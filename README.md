@@ -129,7 +129,7 @@ Each measurement contains 7 columns:
 
 #### 1. **File Not Found Errors**
 ```
-Error: Cannot open file 'Model\FNNmodel.mat'
+Error: Cannot open file 'model\FNNmodel.mat'
 ```
 **Solution**: Ensure all model files are in the correct directory structure.
 
