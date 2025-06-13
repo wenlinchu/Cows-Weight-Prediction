@@ -64,7 +64,8 @@ run('useModel.m')
 ```
 
 > [!WARNING]
-> If using MATLAB versions prior to R2025a, the line `theme(fig2, "light"); % MATLAB Version: 2025a` in `useModel.m` must be commented out.
+> If using MATLAB versions prior to R2025a, the line `theme(fig, "light"); % MATLAB Version: 2025a` in `useModel.m` must be commented out.
+> fig: fig1, fig2
 
 ## Test Dataset Description
 
