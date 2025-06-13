@@ -7,7 +7,7 @@ This repository (Cows-Weight-Prediction) contains MATLAB code for evaluating mac
 |![cid603_Dorsal-region](./assets/cid603_dorsal.svg)|![cid700_Dorsal-region](./assets/cid700_dorsal.svg)|
 
 ### Software Requirements
-- **MATLAB**: Version 2025a or later
+- **MATLAB**: Version R2025a or later
 - **Required Toolboxes**:
   - Deep Learning Toolbox (for FNN models)
   - Statistics and Machine Learning Toolbox (for GPR models)
@@ -54,7 +54,7 @@ Edit the configuration parameters in `useModel.m`:
 ```matlab
 % Configuration Parameters
 REGION_INDEX = 1;              % 1: Dorsal, 2: Hips, 3: Side
-ANIMAL_ID = "cid700";          % Available: cid111, cid514, cid603, cid660, cid700
+CATTLE_ID = "cid700";          % Available: cid111, cid514, cid603, cid660, cid700
 ```
 
 ### 3. Run Analysis
@@ -62,6 +62,9 @@ ANIMAL_ID = "cid700";          % Available: cid111, cid514, cid603, cid660, cid7
 % Execute the main script
 run('useModel.m')
 ```
+
+> [!WARNING]
+> If using MATLAB versions prior to R2025a, the line `theme(fig2, "light"); % MATLAB Version: 2025a` in `useModel.m` must be commented out.
 
 ## Test Dataset Description
 
